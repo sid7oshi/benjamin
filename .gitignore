@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.local/
+*.log
+.DS_Store
+# Personal data never belongs in this public repo.
+vault*.json
+*statement*.csv
+*.numbers

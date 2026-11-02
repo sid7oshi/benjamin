@@ -1,0 +1,22 @@
+{
+  "name": "Benjamin",
+  "short_name": "Benjamin",
+  "description": "See where your money actually goes.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3efe4",
+  "theme_color": "#123d2b",
+  "lang": "en-IN",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Log a spend", "url": "./#/add", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
